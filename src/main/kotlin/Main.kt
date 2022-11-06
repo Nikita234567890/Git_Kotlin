@@ -1,5 +1,7 @@
 fun main(args: Array<String>) {
-    //check if even
+    doTask1()
+}
+fun doTask1(){
     val a = readLine()?.toIntOrNull()
     if(a != null)
     {
